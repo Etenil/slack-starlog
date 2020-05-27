@@ -1,0 +1,11 @@
+[package]
+name = "starlog"
+version = "0.1.0"
+authors = ["Guillaume Pasquet <guillaume.pasquet@plentific.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+slack-hook2 = "0.10.0"
+tokio = "0.2.21"
