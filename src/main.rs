@@ -55,8 +55,8 @@ impl SlackHook {
     fn new() -> SlackHook {
         SlackHook {
             url: env::var("STARLOG_HOOK").expect("Please add STARLOG_HOOK to your environment variables"),
-            channel: env::var("STARLOG_CHANNEL").expect("Please add STARLOG_HOOK to your environment variables"),
-            username: env::var("STARLOG_USERNAME").expect("Please add STARLOG_HOOK to your environment variables")
+            channel: env::var("STARLOG_CHANNEL").expect("Please add STARLOG_CHANNEL to your environment variables"),
+            username: env::var("STARLOG_USERNAME").expect("Please add STARLOG_USERNAME to your environment variables")
         }
     }
 
