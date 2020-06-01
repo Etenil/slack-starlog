@@ -8,4 +8,5 @@ edition = "2018"
 
 [dependencies]
 slack-hook2 = "0.10.0"
-tokio = "0.2.21"
+clap = "2.33.1"
+tokio = { version = "0.2.21", features = ["rt-core"] }
